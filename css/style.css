@@ -96,7 +96,7 @@ nav ul li {
 /* media queries */
 
 /* desktop */
-@media (max-width: 1300px) {
+@media (min-width: 1300px) {
     html {
         font-size: 90%;
     }
@@ -110,7 +110,7 @@ nav ul li {
 }
 
 /* mobile */
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 500px) {
     html {
         font-size: 90%;
     }
